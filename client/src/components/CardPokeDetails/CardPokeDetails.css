@@ -1,0 +1,58 @@
+.pokeDetailsBack{
+    background-size: cover;
+    background-image: url("../../assets/PokeDetail.jpg")
+}
+
+.pokeDetailsContain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.pokeDetailsImage{
+    max-width: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.pokeDetailsStats{
+    border: 7px solid;
+    border-radius: 20px;
+    height: fit-content;
+    width: 300px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.pokeDetailsName{
+    margin: auto;
+    width: 20%;
+    background-color: white;
+    height: fit-content;
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+.pokeDetailsBack button{
+    margin-top: 10px;
+    margin-right: 90%;
+    margin-bottom: 0px;
+    border-color: black;
+    border: solid 4px;
+    border-radius: 100px;
+    background-color: white;
+    transition: background-color 0.25s, color 0.25s;
+    padding: 7px;
+    cursor: pointer;
+    color: orangered
+}
+
+.pokeDetailsBack button:hover{
+    background-color: orangered;
+    color: white;
+    border: white;
+     border: solid 4px;
+    border-radius: 100px;
+}
+
